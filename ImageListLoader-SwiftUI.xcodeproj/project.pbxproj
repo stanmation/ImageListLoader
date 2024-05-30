@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		60130C522BFD9CF5007B5392 /* ImageListLoader_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60130C512BFD9CF5007B5392 /* ImageListLoader_SwiftUIApp.swift */; };
-		60130C542BFD9CF5007B5392 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60130C532BFD9CF5007B5392 /* ContentView.swift */; };
+		60130C542BFD9CF5007B5392 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60130C532BFD9CF5007B5392 /* MovieListView.swift */; };
 		60130C562BFD9D07007B5392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60130C552BFD9D07007B5392 /* Assets.xcassets */; };
 		60130C592BFD9D07007B5392 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60130C582BFD9D07007B5392 /* Preview Assets.xcassets */; };
 		60130C632BFD9D0B007B5392 /* ImageListLoader_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60130C622BFD9D0B007B5392 /* ImageListLoader_SwiftUITests.swift */; };
 		60130C6D2BFD9D0B007B5392 /* ImageListLoader_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60130C6C2BFD9D0B007B5392 /* ImageListLoader_SwiftUIUITests.swift */; };
 		60130C6F2BFD9D0B007B5392 /* ImageListLoader_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60130C6E2BFD9D0B007B5392 /* ImageListLoader_SwiftUIUITestsLaunchTests.swift */; };
+		60130C7C2BFD9F8C007B5392 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60130C7B2BFD9F8C007B5392 /* MovieService.swift */; };
+		60130C7E2BFDA0B7007B5392 /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60130C7D2BFDA0B7007B5392 /* MovieListViewModel.swift */; };
+		60130C812BFDB293007B5392 /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60130C802BFDB293007B5392 /* MovieResponse.swift */; };
+		6017BE7E2C059F3900894AE9 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017BE7D2C059F3900894AE9 /* ImageLoader.swift */; };
+		6017BE822C070A7F00894AE9 /* MovieRowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017BE812C070A7F00894AE9 /* MovieRowItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		60130C4E2BFD9CF5007B5392 /* ImageListLoader-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ImageListLoader-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60130C512BFD9CF5007B5392 /* ImageListLoader_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListLoader_SwiftUIApp.swift; sourceTree = "<group>"; };
-		60130C532BFD9CF5007B5392 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		60130C532BFD9CF5007B5392 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
 		60130C552BFD9D07007B5392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60130C582BFD9D07007B5392 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		60130C5E2BFD9D0B007B5392 /* ImageListLoader-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ImageListLoader-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,12 @@
 		60130C682BFD9D0B007B5392 /* ImageListLoader-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ImageListLoader-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60130C6C2BFD9D0B007B5392 /* ImageListLoader_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListLoader_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		60130C6E2BFD9D0B007B5392 /* ImageListLoader_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListLoader_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		60130C7B2BFD9F8C007B5392 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		60130C7D2BFDA0B7007B5392 /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
+		60130C802BFDB293007B5392 /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
+		6017BE7D2C059F3900894AE9 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		6017BE812C070A7F00894AE9 /* MovieRowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRowItem.swift; sourceTree = "<group>"; };
+		6036E5682C0844D900461CAC /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +85,7 @@
 		60130C452BFD9CF5007B5392 = {
 			isa = PBXGroup;
 			children = (
+				6036E5682C0844D900461CAC /* Config.xcconfig */,
 				60130C502BFD9CF5007B5392 /* ImageListLoader-SwiftUI */,
 				60130C612BFD9D0B007B5392 /* ImageListLoader-SwiftUITests */,
 				60130C6B2BFD9D0B007B5392 /* ImageListLoader-SwiftUIUITests */,
@@ -94,8 +106,11 @@
 		60130C502BFD9CF5007B5392 /* ImageListLoader-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				6017BE802C0709FD00894AE9 /* Services */,
+				6017BE7F2C0709E400894AE9 /* Views */,
+				6017BE7C2C059F2A00894AE9 /* Utilities */,
+				60130C7F2BFDB27E007B5392 /* Models */,
 				60130C512BFD9CF5007B5392 /* ImageListLoader_SwiftUIApp.swift */,
-				60130C532BFD9CF5007B5392 /* ContentView.swift */,
 				60130C552BFD9D07007B5392 /* Assets.xcassets */,
 				60130C572BFD9D07007B5392 /* Preview Content */,
 			);
@@ -125,6 +140,40 @@
 				60130C6E2BFD9D0B007B5392 /* ImageListLoader_SwiftUIUITestsLaunchTests.swift */,
 			);
 			path = "ImageListLoader-SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+		60130C7F2BFDB27E007B5392 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				60130C802BFDB293007B5392 /* MovieResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6017BE7C2C059F2A00894AE9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6017BE7D2C059F3900894AE9 /* ImageLoader.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6017BE7F2C0709E400894AE9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				60130C532BFD9CF5007B5392 /* MovieListView.swift */,
+				60130C7D2BFDA0B7007B5392 /* MovieListViewModel.swift */,
+				6017BE812C070A7F00894AE9 /* MovieRowItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6017BE802C0709FD00894AE9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				60130C7B2BFD9F8C007B5392 /* MovieService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +306,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60130C542BFD9CF5007B5392 /* ContentView.swift in Sources */,
+				60130C7C2BFD9F8C007B5392 /* MovieService.swift in Sources */,
+				60130C812BFDB293007B5392 /* MovieResponse.swift in Sources */,
+				6017BE7E2C059F3900894AE9 /* ImageLoader.swift in Sources */,
+				6017BE822C070A7F00894AE9 /* MovieRowItem.swift in Sources */,
+				60130C542BFD9CF5007B5392 /* MovieListView.swift in Sources */,
 				60130C522BFD9CF5007B5392 /* ImageListLoader_SwiftUIApp.swift in Sources */,
+				60130C7E2BFDA0B7007B5392 /* MovieListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +351,9 @@
 /* Begin XCBuildConfiguration section */
 		60130C702BFD9D0B007B5392 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6036E5682C0844D900461CAC /* Config.xcconfig */;
 			buildSettings = {
+				ACCESS_TOKEN = "$(ACCESS_TOKEN)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -360,7 +416,10 @@
 		};
 		60130C712BFD9D0B007B5392 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6036E5682C0844D900461CAC /* Config.xcconfig */;
 			buildSettings = {
+				ACCESS_TOKEN = "";
+				"ACCESS_TOKEN[arch=*]" = "$(ACCESS_TOKEN)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -417,14 +476,16 @@
 		60130C732BFD9D0B007B5392 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ACCESS_TOKEN = "$(ACCESS_TOKEN)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ImageListLoader-SwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = BB9L88K7Q5;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ImageListLoader-SwiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -437,6 +498,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stanmation.ImageListLoader-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -446,14 +508,16 @@
 		60130C742BFD9D0B007B5392 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ACCESS_TOKEN = "$(ACCESS_TOKEN)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ImageListLoader-SwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = BB9L88K7Q5;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ImageListLoader-SwiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -466,6 +530,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stanmation.ImageListLoader-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

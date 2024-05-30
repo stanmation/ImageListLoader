@@ -7,11 +7,13 @@
 
 import SwiftUI
 
+//fileprivate let loginService = LoginService()
+
 @main
 struct ImageListLoader_SwiftUIApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      MovieListView()
     }
+  }
 }
