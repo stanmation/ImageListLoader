@@ -23,7 +23,7 @@ struct MovieListView: View {
             }
         }
         .onAppear {
-          viewModel.loadMoviesList()
+          viewModel.fetchMovieList()
         }
       }
       

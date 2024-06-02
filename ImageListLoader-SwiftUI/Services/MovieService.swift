@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class MovieService: ObservableObject {
+class MovieService: ObservableObject {
   
   private let jsonDecoder: JSONDecoder = {
     let jsonDecoder = JSONDecoder()

@@ -13,12 +13,14 @@ class MovieRowItem: Identifiable, ObservableObject {
   let title: String
   let posterPath: String
   @Published var posterImage: Image?
+  private let imageLoader: ImageLoader
   private var currentTask: Task<Void, Never>? = nil
   
-  init(id: Int, title: String, posterPath: String) {
+  init(id: Int, title: String, posterPath: String, imageLoader: ImageLoader) {
     self.id = id
     self.title = title
     self.posterPath = posterPath
+    self.imageLoader = imageLoader
   }
   
   func loadImage(from url: URL) {
@@ -26,7 +28,7 @@ class MovieRowItem: Identifiable, ObservableObject {
         
     currentTask = Task {
       do {
-        let image = try await ImageLoader.fetchImage(from: url)
+        let image = try await imageLoader.fetchImage(from: url)
         self.posterImage = image
       } catch {
         if !Task.isCancelled {
