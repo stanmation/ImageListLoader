@@ -6,3 +6,7 @@ This is a demonstration of a list view in which each row will attempt to downloa
 <br><br>
 
 **API used:** The Movie database
+
+**Screenshots:**
+
+<img src="Screenshots/Screenshot01.png" alt="LoginView" width="200"> 
