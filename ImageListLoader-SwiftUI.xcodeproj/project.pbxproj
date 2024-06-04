@@ -12,24 +12,18 @@
 		60130C562BFD9D07007B5392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60130C552BFD9D07007B5392 /* Assets.xcassets */; };
 		60130C592BFD9D07007B5392 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60130C582BFD9D07007B5392 /* Preview Assets.xcassets */; };
 		60130C632BFD9D0B007B5392 /* MovieListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60130C622BFD9D0B007B5392 /* MovieListViewModelTests.swift */; };
-		60130C6D2BFD9D0B007B5392 /* ImageListLoader_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60130C6C2BFD9D0B007B5392 /* ImageListLoader_SwiftUIUITests.swift */; };
-		60130C6F2BFD9D0B007B5392 /* ImageListLoader_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60130C6E2BFD9D0B007B5392 /* ImageListLoader_SwiftUIUITestsLaunchTests.swift */; };
 		60130C7C2BFD9F8C007B5392 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60130C7B2BFD9F8C007B5392 /* MovieService.swift */; };
 		60130C7E2BFDA0B7007B5392 /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60130C7D2BFDA0B7007B5392 /* MovieListViewModel.swift */; };
 		60130C812BFDB293007B5392 /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60130C802BFDB293007B5392 /* MovieResponse.swift */; };
-		6017BE7E2C059F3900894AE9 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017BE7D2C059F3900894AE9 /* ImageLoader.swift */; };
-		6017BE822C070A7F00894AE9 /* MovieRowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017BE812C070A7F00894AE9 /* MovieRowItem.swift */; };
+		6017BE7E2C059F3900894AE9 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017BE7D2C059F3900894AE9 /* ImageDownloader.swift */; };
+		60BD078A2C0EF30700AAE932 /* MovieRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BD07892C0EF30700AAE932 /* MovieRowView.swift */; };
+		60BD078C2C0F08CC00AAE932 /* ImageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BD078B2C0F08CC00AAE932 /* ImageError.swift */; };
+		60BD078F2C0F08FE00AAE932 /* MovieRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BD078E2C0F08FE00AAE932 /* MovieRowViewModel.swift */; };
+		60BD07912C0F0A6700AAE932 /* MovieRowViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BD07902C0F0A6700AAE932 /* MovieRowViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		60130C5F2BFD9D0B007B5392 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 60130C462BFD9CF5007B5392 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 60130C4D2BFD9CF5007B5392;
-			remoteInfo = "ImageListLoader-SwiftUI";
-		};
-		60130C692BFD9D0B007B5392 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 60130C462BFD9CF5007B5392 /* Project object */;
 			proxyType = 1;
@@ -46,15 +40,15 @@
 		60130C582BFD9D07007B5392 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		60130C5E2BFD9D0B007B5392 /* ImageListLoader-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ImageListLoader-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60130C622BFD9D0B007B5392 /* MovieListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModelTests.swift; sourceTree = "<group>"; };
-		60130C682BFD9D0B007B5392 /* ImageListLoader-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ImageListLoader-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		60130C6C2BFD9D0B007B5392 /* ImageListLoader_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListLoader_SwiftUIUITests.swift; sourceTree = "<group>"; };
-		60130C6E2BFD9D0B007B5392 /* ImageListLoader_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListLoader_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		60130C7B2BFD9F8C007B5392 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 		60130C7D2BFDA0B7007B5392 /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
 		60130C802BFDB293007B5392 /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
-		6017BE7D2C059F3900894AE9 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
-		6017BE812C070A7F00894AE9 /* MovieRowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRowItem.swift; sourceTree = "<group>"; };
+		6017BE7D2C059F3900894AE9 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 		6036E5682C0844D900461CAC /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = SOURCE_ROOT; };
+		60BD07892C0EF30700AAE932 /* MovieRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRowView.swift; sourceTree = "<group>"; };
+		60BD078B2C0F08CC00AAE932 /* ImageError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageError.swift; sourceTree = "<group>"; };
+		60BD078E2C0F08FE00AAE932 /* MovieRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRowViewModel.swift; sourceTree = "<group>"; };
+		60BD07902C0F0A6700AAE932 /* MovieRowViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRowViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,13 +66,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60130C652BFD9D0B007B5392 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,7 +75,6 @@
 				6036E5682C0844D900461CAC /* Config.xcconfig */,
 				60130C502BFD9CF5007B5392 /* ImageListLoader-SwiftUI */,
 				60130C612BFD9D0B007B5392 /* ImageListLoader-SwiftUITests */,
-				60130C6B2BFD9D0B007B5392 /* ImageListLoader-SwiftUIUITests */,
 				60130C4F2BFD9CF5007B5392 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,7 +84,6 @@
 			children = (
 				60130C4E2BFD9CF5007B5392 /* ImageListLoader-SwiftUI.app */,
 				60130C5E2BFD9D0B007B5392 /* ImageListLoader-SwiftUITests.xctest */,
-				60130C682BFD9D0B007B5392 /* ImageListLoader-SwiftUIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,6 +91,7 @@
 		60130C502BFD9CF5007B5392 /* ImageListLoader-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				60BD078D2C0F08D000AAE932 /* Errors */,
 				6017BE802C0709FD00894AE9 /* Services */,
 				6017BE7F2C0709E400894AE9 /* Views */,
 				6017BE7C2C059F2A00894AE9 /* Utilities */,
@@ -129,17 +115,9 @@
 			isa = PBXGroup;
 			children = (
 				60130C622BFD9D0B007B5392 /* MovieListViewModelTests.swift */,
+				60BD07902C0F0A6700AAE932 /* MovieRowViewModelTests.swift */,
 			);
 			path = "ImageListLoader-SwiftUITests";
-			sourceTree = "<group>";
-		};
-		60130C6B2BFD9D0B007B5392 /* ImageListLoader-SwiftUIUITests */ = {
-			isa = PBXGroup;
-			children = (
-				60130C6C2BFD9D0B007B5392 /* ImageListLoader_SwiftUIUITests.swift */,
-				60130C6E2BFD9D0B007B5392 /* ImageListLoader_SwiftUIUITestsLaunchTests.swift */,
-			);
-			path = "ImageListLoader-SwiftUIUITests";
 			sourceTree = "<group>";
 		};
 		60130C7F2BFDB27E007B5392 /* Models */ = {
@@ -153,7 +131,7 @@
 		6017BE7C2C059F2A00894AE9 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				6017BE7D2C059F3900894AE9 /* ImageLoader.swift */,
+				6017BE7D2C059F3900894AE9 /* ImageDownloader.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -163,7 +141,8 @@
 			children = (
 				60130C532BFD9CF5007B5392 /* MovieListView.swift */,
 				60130C7D2BFDA0B7007B5392 /* MovieListViewModel.swift */,
-				6017BE812C070A7F00894AE9 /* MovieRowItem.swift */,
+				60BD07892C0EF30700AAE932 /* MovieRowView.swift */,
+				60BD078E2C0F08FE00AAE932 /* MovieRowViewModel.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -174,6 +153,14 @@
 				60130C7B2BFD9F8C007B5392 /* MovieService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		60BD078D2C0F08D000AAE932 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				60BD078B2C0F08CC00AAE932 /* ImageError.swift */,
+			);
+			path = Errors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,24 +201,6 @@
 			productReference = 60130C5E2BFD9D0B007B5392 /* ImageListLoader-SwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		60130C672BFD9D0B007B5392 /* ImageListLoader-SwiftUIUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 60130C782BFD9D0B007B5392 /* Build configuration list for PBXNativeTarget "ImageListLoader-SwiftUIUITests" */;
-			buildPhases = (
-				60130C642BFD9D0B007B5392 /* Sources */,
-				60130C652BFD9D0B007B5392 /* Frameworks */,
-				60130C662BFD9D0B007B5392 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				60130C6A2BFD9D0B007B5392 /* PBXTargetDependency */,
-			);
-			name = "ImageListLoader-SwiftUIUITests";
-			productName = "ImageListLoader-SwiftUIUITests";
-			productReference = 60130C682BFD9D0B007B5392 /* ImageListLoader-SwiftUIUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -246,10 +215,6 @@
 						CreatedOnToolsVersion = 15.3;
 					};
 					60130C5D2BFD9D0B007B5392 = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 60130C4D2BFD9CF5007B5392;
-					};
-					60130C672BFD9D0B007B5392 = {
 						CreatedOnToolsVersion = 15.3;
 						TestTargetID = 60130C4D2BFD9CF5007B5392;
 					};
@@ -270,7 +235,6 @@
 			targets = (
 				60130C4D2BFD9CF5007B5392 /* ImageListLoader-SwiftUI */,
 				60130C5D2BFD9D0B007B5392 /* ImageListLoader-SwiftUITests */,
-				60130C672BFD9D0B007B5392 /* ImageListLoader-SwiftUIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -292,13 +256,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60130C662BFD9D0B007B5392 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -306,13 +263,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60BD078F2C0F08FE00AAE932 /* MovieRowViewModel.swift in Sources */,
+				60BD078A2C0EF30700AAE932 /* MovieRowView.swift in Sources */,
 				60130C7C2BFD9F8C007B5392 /* MovieService.swift in Sources */,
 				60130C812BFDB293007B5392 /* MovieResponse.swift in Sources */,
-				6017BE7E2C059F3900894AE9 /* ImageLoader.swift in Sources */,
-				6017BE822C070A7F00894AE9 /* MovieRowItem.swift in Sources */,
+				6017BE7E2C059F3900894AE9 /* ImageDownloader.swift in Sources */,
 				60130C542BFD9CF5007B5392 /* MovieListView.swift in Sources */,
 				60130C522BFD9CF5007B5392 /* ImageListLoader_SwiftUIApp.swift in Sources */,
 				60130C7E2BFDA0B7007B5392 /* MovieListViewModel.swift in Sources */,
+				60BD078C2C0F08CC00AAE932 /* ImageError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,16 +279,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60BD07912C0F0A6700AAE932 /* MovieRowViewModelTests.swift in Sources */,
 				60130C632BFD9D0B007B5392 /* MovieListViewModelTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		60130C642BFD9D0B007B5392 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				60130C6D2BFD9D0B007B5392 /* ImageListLoader_SwiftUIUITests.swift in Sources */,
-				60130C6F2BFD9D0B007B5392 /* ImageListLoader_SwiftUIUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,11 +291,6 @@
 			isa = PBXTargetDependency;
 			target = 60130C4D2BFD9CF5007B5392 /* ImageListLoader-SwiftUI */;
 			targetProxy = 60130C5F2BFD9D0B007B5392 /* PBXContainerItemProxy */;
-		};
-		60130C6A2BFD9D0B007B5392 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 60130C4D2BFD9CF5007B5392 /* ImageListLoader-SwiftUI */;
-			targetProxy = 60130C692BFD9D0B007B5392 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -577,42 +523,6 @@
 			};
 			name = Release;
 		};
-		60130C792BFD9D0B007B5392 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BB9L88K7Q5;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.stanmation.ImageListLoader-SwiftUIUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "ImageListLoader-SwiftUI";
-			};
-			name = Debug;
-		};
-		60130C7A2BFD9D0B007B5392 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BB9L88K7Q5;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.stanmation.ImageListLoader-SwiftUIUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "ImageListLoader-SwiftUI";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -639,15 +549,6 @@
 			buildConfigurations = (
 				60130C762BFD9D0B007B5392 /* Debug */,
 				60130C772BFD9D0B007B5392 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		60130C782BFD9D0B007B5392 /* Build configuration list for PBXNativeTarget "ImageListLoader-SwiftUIUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				60130C792BFD9D0B007B5392 /* Debug */,
-				60130C7A2BFD9D0B007B5392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

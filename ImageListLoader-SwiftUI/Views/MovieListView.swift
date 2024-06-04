@@ -9,17 +9,17 @@ import SwiftUI
 
 struct MovieListView: View {
   @StateObject var viewModel = MovieListViewModel()
+  private let imageLoader = ImageDownloader()
   
   var body: some View {
     ZStack {
       VStack {
-        List($viewModel.movieRowItems) { $movie in
-          RowView(movie: movie)
-            .onAppear {
-              viewModel.loadImage(for: $movie.id)
-            }
+        List($viewModel.movies) { $movie in
+          let movieRowView = MovieRowView(movie: movie,
+                                          imageLoader: imageLoader)
+          movieRowView
             .onDisappear {
-              viewModel.cancelLoadImage(for: $movie.id)
+              movieRowView.cancelImageDownload()
             }
         }
         .onAppear {
@@ -28,26 +28,6 @@ struct MovieListView: View {
       }
       
       if viewModel.isLoading {
-        ProgressView()
-          .frame(width: 256, height: 256)
-      }
-    }
-  }
-}
-
-struct RowView: View {
-  @ObservedObject var movie: MovieRowItem
-  
-  var body: some View {
-    VStack {
-      Text(String(movie.title))
-
-      if let posterImage = movie.posterImage {
-        posterImage
-          .resizable()
-          .aspectRatio(contentMode: .fit)
-          .frame(width: 256, height: 256)
-      } else {
         ProgressView()
           .frame(width: 256, height: 256)
       }

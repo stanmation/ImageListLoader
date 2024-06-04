@@ -40,11 +40,9 @@ class MovieService: ObservableObject {
     
     do {
       let (data, _) = try await URLSession.shared.data(for: request)
-      print(String(decoding: data, as: UTF8.self))
       let movieResponse = try jsonDecoder.decode(MovieResponse.self, from: data)
       return movieResponse.results
     } catch {
-      print(error)
       return []
     }
   }
