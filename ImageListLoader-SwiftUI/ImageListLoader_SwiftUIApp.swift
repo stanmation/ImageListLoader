@@ -13,7 +13,7 @@ import SwiftUI
 struct ImageListLoader_SwiftUIApp: App {
   var body: some Scene {
     WindowGroup {
-      MovieListView()
+      InitialView()
     }
   }
 }

@@ -22,6 +22,12 @@ final class MovieRowViewModelTests: XCTestCase {
     viewModel = MovieRowViewModel(movie: movie, imageLoader: mockImageDownloader)
   }
   
+  override func tearDown() {
+    mockImageDownloader = nil
+    viewModel = nil
+    super.tearDown()
+  }
+  
   @MainActor
   func testDownloadingImageSuccessfully() async {
     do {

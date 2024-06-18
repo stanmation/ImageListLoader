@@ -32,6 +32,7 @@ struct MovieListView: View {
           .frame(width: 256, height: 256)
       }
     }
+    .navigationTitle("Movie List")
   }
 }
 

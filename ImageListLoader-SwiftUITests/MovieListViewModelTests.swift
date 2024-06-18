@@ -13,13 +13,21 @@ import SwiftUI
 final class MovieListViewModelTests: XCTestCase {
   private var mockMovieService: MockMovieService!
   private var viewModel: MovieListViewModel!
-  private var cancellable = Set<AnyCancellable>()
+  private var cancellable: Set<AnyCancellable>!
 
   @MainActor
   override func setUp() {
     super.setUp()
     mockMovieService = MockMovieService()
     viewModel = MovieListViewModel(movieService: mockMovieService)
+    cancellable = Set<AnyCancellable>()
+  }
+  
+  override func tearDown() {
+    mockMovieService = nil
+    viewModel = nil
+    cancellable = nil
+    super.tearDown()
   }
   
   @MainActor
